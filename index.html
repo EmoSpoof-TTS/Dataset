@@ -89,9 +89,7 @@
           <figcaption style="text-align: justify; font-size: 1rem; color: #000000;">
             <b>Abstract</b>: Traditional anti-spoofing focuses on models and datasets built on synthetic speech with mostly neutral state, neglecting diverse emotional variations. As a result, their robustness against high-quality, emotionally expressive synthetic speech is uncertain. We address this by introducing EmoSpoof-TTS, a corpus of emotional text-to-speech samples. Our analysis shows existing anti-spoofing models struggle with emotional synthetic speech, exposing risks of emotion-targeted attacks. Even trained on emotional data, the models underperform due to limited focus on emotional aspects and show performance disparities across emotions. This highlights the need for an emotion-focused anti-spoofing paradigm in both dataset and methodology. We propose GEM, a gated ensemble of emotion-specialized models with a speech emotion recognition gating network. GEM performs effectively across all emotions and neutral state, improving defenses against spoofing attacks. We release the EmoSpoof-TTS Dataset.
             <br /><br />
-	    <div style="text-align: center;">
-            	<h2 class="section-title">Model Architecture</h2>
-	    </div>
+            <h2 class="section-title">Model Architecture</h2>
             <br />
             <img src="./Diagram.png" height="350" alt="Model Architecture Diagram" style="display: block; margin: 0 auto;" />
             <p style="text-align: center; font-size: 1rem; color: #000000;">
@@ -100,7 +98,7 @@
           </figcaption><br />
 	      <div class="big-screen">
 	        <!-- Big-screen specific content here -->
-		  <h2>------------------------------   Speech Samples  ------------------------------</h2>
+		<h2 class="section-title">Speech Samples</h2>
 		  We introduce and release EmoSpoof-TTS, a corpus of emotionally expressive synthetic speech generated using recent text-to-speech models, to facilitate research on the impact of emotion on anti-spoofing models. It contains a total of 36,000 synthesized speech samples from four emotions (Happiness, Anger, Sadness, and Neutral state), 10 (5 male, 5 female) speakers, and 3 TTS models (StyleTTS2 [1], F5-TTS [2], CosyVoice [3]). The bona-fide samples are from Emotional Speech Database (ESD) [4].
 		  <br /><br />
 	<table class="table table-bordered text-center">
